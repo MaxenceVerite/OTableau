@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox id="fond" fx:id="rootVbox" stylesheets="@../css/VocabularyContent.css" style="-fx-border-color:#845717; -fx-border-width:6px; -fx-border-style:solid;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.game.PixelMagiqueContentController" VBox.vgrow="ALWAYS">
+   <children>
+      <StackPane prefHeight="659.0" prefWidth="1237.0" VBox.vgrow="ALWAYS">
+         <children>
+            <GridPane gridLinesVisible="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="416.0" prefWidth="1236.0" style="-fx-background-color: lightgray; -fx-border-color: #722c01; -fx-border-style: solid; -fx-border-width: 10;" StackPane.alignment="CENTER" VBox.vgrow="ALWAYS">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <StackPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </StackPane.margin>
+               <children>
+                  <Button fx:id="b12" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b03" layoutX="20.0" layoutY="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="3">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b04" layoutX="20.0" layoutY="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="4">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b02" layoutX="20.0" layoutY="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b01" layoutX="20.0" layoutY="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b06" layoutX="20.0" layoutY="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="6">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b05" layoutX="20.0" layoutY="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="5">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b10" layoutX="20.0" layoutY="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b09" layoutX="20.0" layoutY="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="9">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b08" layoutX="20.0" layoutY="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="8">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b07" layoutX="20.0" layoutY="20.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="7">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b25" layoutX="144.0" layoutY="84.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b11" layoutX="268.0" layoutY="84.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b13" layoutX="144.0" layoutY="84.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b14" layoutX="392.0" layoutY="84.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b15" layoutX="516.0" layoutY="84.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b16" layoutX="516.0" layoutY="84.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b17" layoutX="640.0" layoutY="84.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b18" layoutX="764.0" layoutY="84.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="8" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b24" layoutX="888.0" layoutY="84.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b23" layoutX="888.0" layoutY="84.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b22" layoutX="888.0" layoutY="84.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b21" layoutX="888.0" layoutY="84.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b20" layoutX="888.0" layoutY="84.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b19" layoutX="888.0" layoutY="84.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="9" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b35" layoutX="640.0" layoutY="148.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b34" layoutX="640.0" layoutY="148.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b33" layoutX="640.0" layoutY="148.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b32" layoutX="640.0" layoutY="148.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b31" layoutX="640.0" layoutY="148.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b30" layoutX="640.0" layoutY="148.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b29" layoutX="640.0" layoutY="148.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="9" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b28" layoutX="640.0" layoutY="148.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="8" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b27" layoutX="640.0" layoutY="148.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b26" layoutX="640.0" layoutY="148.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b47" layoutX="640.0" layoutY="212.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b46" layoutX="640.0" layoutY="212.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b45" layoutX="640.0" layoutY="212.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b44" layoutX="640.0" layoutY="212.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b43" layoutX="640.0" layoutY="212.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b42" layoutX="640.0" layoutY="212.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b41" layoutX="640.0" layoutY="212.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b40" layoutX="640.0" layoutY="212.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b39" layoutX="640.0" layoutY="212.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="9" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b38" layoutX="640.0" layoutY="212.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="8" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b37" layoutX="640.0" layoutY="212.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b36" layoutX="640.0" layoutY="212.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b58" layoutX="888.0" layoutY="276.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="8" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b48" layoutX="888.0" layoutY="276.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="8" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b50" layoutX="1012.0" layoutY="276.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b57" layoutX="1136.0" layoutY="276.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b56" layoutX="1012.0" layoutY="276.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b55" layoutX="1012.0" layoutY="276.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b54" layoutX="1012.0" layoutY="276.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b53" layoutX="1012.0" layoutY="276.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b52" layoutX="1012.0" layoutY="276.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b51" layoutX="1012.0" layoutY="276.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b49" layoutX="1012.0" layoutY="276.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="9" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b68" layoutX="1012.0" layoutY="339.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="8" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b67" layoutX="1012.0" layoutY="339.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b66" layoutX="1012.0" layoutY="339.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b65" layoutX="1012.0" layoutY="339.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b64" layoutX="1012.0" layoutY="339.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b63" layoutX="1012.0" layoutY="339.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b62" layoutX="1012.0" layoutY="339.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b61" layoutX="1012.0" layoutY="339.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b60" layoutX="1012.0" layoutY="339.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b59" layoutX="1012.0" layoutY="339.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="9" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b80" layoutX="1012.0" layoutY="402.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.rowIndex="8">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b79" layoutX="1012.0" layoutY="402.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="9" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b78" layoutX="1012.0" layoutY="402.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="8" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b77" layoutX="1012.0" layoutY="402.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b76" layoutX="1012.0" layoutY="402.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b75" layoutX="1012.0" layoutY="402.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b74" layoutX="1012.0" layoutY="402.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b73" layoutX="1012.0" layoutY="402.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b72" layoutX="1012.0" layoutY="402.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b71" layoutX="1012.0" layoutY="402.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b70" layoutX="1012.0" layoutY="402.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b69" layoutX="1012.0" layoutY="402.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="9" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b94" layoutX="20.0" layoutY="528.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="9">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b93" layoutX="20.0" layoutY="528.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="9">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b92" layoutX="20.0" layoutY="528.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b91" layoutX="20.0" layoutY="528.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b90" layoutX="20.0" layoutY="528.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.rowIndex="9">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b89" layoutX="20.0" layoutY="528.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="9" GridPane.rowIndex="8">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b88" layoutX="20.0" layoutY="528.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="8" GridPane.rowIndex="8">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b87" layoutX="20.0" layoutY="528.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="8">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b86" layoutX="20.0" layoutY="528.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="8">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b85" layoutX="20.0" layoutY="528.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="8">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b84" layoutX="20.0" layoutY="528.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="8">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b83" layoutX="20.0" layoutY="528.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b82" layoutX="20.0" layoutY="528.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b81" layoutX="20.0" layoutY="528.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b00" layoutX="516.0" layoutY="591.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b99" layoutX="516.0" layoutY="591.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="9" GridPane.rowIndex="9">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b98" layoutX="516.0" layoutY="591.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="8" GridPane.rowIndex="9">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b97" layoutX="516.0" layoutY="591.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="7" GridPane.rowIndex="9">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b96" layoutX="516.0" layoutY="591.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="6" GridPane.rowIndex="9">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="b95" layoutX="516.0" layoutY="591.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onClick" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="9">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+            </GridPane>
+         </children>
+      </StackPane>
+      <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="110.0" prefWidth="1280.0" VBox.vgrow="ALWAYS">
+         <children>
+            <HBox prefHeight="125.0" prefWidth="767.0">
+               <children>
+                  <Button fx:id="buttonNom" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#selectColor" prefHeight="100.0" prefWidth="236.0" style="-fx-border-style: solid none solid solid;" text="NOM" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Button>
+                  <Button fx:id="buttonDeterminant" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#selectColor" prefHeight="100.0" prefWidth="236.0" style="-fx-border-style: solid none solid solid;" text="DETERMINANT" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Button>
+                  <Button fx:id="buttonVerbe" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#selectColor" prefHeight="100.0" prefWidth="236.0" style="-fx-border-style: solid none solid solid;" text="VERBE" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font></Button>
+                  <Button fx:id="buttonAdjectif" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#selectColor" prefHeight="100.0" prefWidth="236.0" style="-fx-border-style: solid none solid solid;" text="ADJECTIF" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font></Button>
+                  <Button fx:id="buttonAdverbe" layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#selectColor" prefHeight="100.0" prefWidth="236.0" style="-fx-border-style: solid solid solid solid;" text="ADVERBE" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" />
+               </HBox.margin>
+            </HBox>
+            <Label fx:id="labelCurrentColor" alignment="TOP_CENTER" contentDisplay="TOP" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" style="-fx-border-style: solid;" text="PINCEAU" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="30.0" right="20.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+               <effect>
+                  <DropShadow color="WHITE" spread="0.27" />
+               </effect>
+            </Label>
+            <HBox layoutX="20.0" layoutY="10.0" prefHeight="125.0" prefWidth="767.0">
+               <children>
+                  <Button fx:id="buttonEffacer" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#resetColors" prefHeight="100.0" prefWidth="236.0" text="EFFACER" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="buttonValider" layoutX="40.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#submit" prefHeight="100.0" prefWidth="236.0" text="VALIDER" HBox.hgrow="ALWAYS" />
+               </children>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </HBox.margin>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>

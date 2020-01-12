@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<VBox id="fond" prefHeight="594.0" prefWidth="184.0" stylesheets="@../css/SideMenu.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.subscreen.SideMenuController">
+   <children>
+      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" VBox.vgrow="ALWAYS">
+         <children>
+            <JFXButton fx:id="buttonMenu" buttonType="RAISED" layoutX="15.0" layoutY="220.79998779296875" onAction="#retourMenu" prefHeight="38.0" prefWidth="157.0" text="Menu Principal" textFill="#ff8d02" AnchorPane.bottomAnchor="53.0">
+               <font>
+                  <Font name="Bauhaus 93" size="19.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" top="80.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="20.0" layoutY="268.79998779296875" onAction="#quitter" prefHeight="38.0" prefWidth="135.0" text="QUITTER" textFill="#ff8d02" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="27.0">
+               <font>
+                  <Font name="Bauhaus 93" size="19.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="15.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXTextField fx:id="nameLabel" alignment="CENTER" editable="false" focusColor="#ff8d02" labelFloat="true" layoutX="5.0" layoutY="29.79998779296875" maxWidth="1.7976931348623157E308" prefHeight="61.0" prefWidth="184.0" promptText="OTableau" text="Joueur " unFocusColor="#ffac06" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="50.0" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="Bauhaus 93" size="19.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="50.0" top="300.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <VBox layoutX="-1.0" layoutY="278.0" prefHeight="200.0" prefWidth="184.0" AnchorPane.bottomAnchor="110.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="SON" VBox.vgrow="ALWAYS">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <JFXSlider fx:id="sliderSon" blockIncrement="0.1" majorTickUnit="0.25" max="1.0" showTickLabels="true" value="0.25" VBox.vgrow="ALWAYS" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

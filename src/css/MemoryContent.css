@@ -1,0 +1,15 @@
+#FondMemory
+{
+	-fx-background-image:url("../images/Memory/FondMemo.png") ;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+
+#DosCarte
+{
+	-fx-background-image:url("../images/Memory/DosCarte.png") ;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;	
+}

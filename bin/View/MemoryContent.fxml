@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import com.jfoenix.validation.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="rootVbox" style="-fx-border-color:#845717; -fx-border-width:6px; -fx-border-style:solid;" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.game.MemoryContentController">
+   <children>
+      <GridPane id="FondMemory" alignment="CENTER" prefHeight="781.0" prefWidth="1280.0" stylesheets="@../css/MemoryContent.css" VBox.vgrow="ALWAYS">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <Button id="DosCarte" fx:id="c23" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="23" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="20.0" top="20.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+               <children>
+                  <Button id="DosCarte" fx:id="c11" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="11" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" top="20.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2">
+               <children>
+                  <Button id="DosCarte" fx:id="c12" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="12" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" top="20.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="3">
+               <children>
+                  <Button id="DosCarte" fx:id="c13" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="13" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" top="20.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="4">
+               <children>
+                  <Button id="DosCarte" fx:id="c14" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="14" textFill="#00000002">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" top="20.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="5">
+               <children>
+                  <Button id="DosCarte" fx:id="c15" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="15" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" top="20.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="6">
+               <children>
+                  <Button id="DosCarte" fx:id="c16" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="16" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" top="20.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="7">
+               <children>
+                  <Button id="DosCarte" fx:id="c27" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="27" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="20.0" top="20.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <children>
+                  <Button id="DosCarte" fx:id="c22" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="22" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="20.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <children>
+                  <Button id="DosCarte" fx:id="c10" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="10" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <children>
+                  <Button id="DosCarte" fx:id="c2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="2" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <children>
+                  <Button id="DosCarte" fx:id="c3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="3" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <children>
+                  <Button id="DosCarte" fx:id="c4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="4" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <children>
+                  <Button id="DosCarte" fx:id="c5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="5" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <children>
+                  <Button id="DosCarte" fx:id="c17" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="17" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <children>
+                  <Button id="DosCarte" fx:id="c26" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="26" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="20.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="2">
+               <children>
+                  <Button id="DosCarte" fx:id="c21" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="21" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="20.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <Button id="DosCarte" fx:id="c9" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="9" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <children>
+                  <Button id="DosCarte" fx:id="c1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="1" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="263.0" prefWidth="208.0" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.rowIndex="2">
+               <children>
+                  <BorderPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #05774e; -fx-border-style: solid;">
+                     <top>
+                        <Label fx:id="labelJ1" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="47.0" prefWidth="306.0" style="-fx-border-style: solid;" text="Joueur 1" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="Bauhaus 93" size="26.0" />
+                           </font>
+                           <BorderPane.margin>
+                              <Insets />
+                           </BorderPane.margin>
+                        </Label>
+                     </top>
+                     <bottom>
+                        <JFXToggleButton fx:id="tbJoueur1" text="tour en cours" toggleColor="#29e43c" toggleLineColor="#6cf87f" unToggleColor="RED" unToggleLineColor="#eea2a2" BorderPane.alignment="CENTER" />
+                     </bottom>
+                     <center>
+                        <ProgressBar fx:id="pbJoueur1" prefWidth="200.0" progress="0.0" BorderPane.alignment="CENTER" />
+                     </center>
+                     <StackPane.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </StackPane.margin>
+                  </BorderPane>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <children>
+                  <Button id="DosCarte" fx:id="c6" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="6" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <children>
+                  <Button id="DosCarte" fx:id="c18" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="18" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="2">
+               <children>
+                  <Button id="DosCarte" fx:id="c25" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="25" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="20.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="3">
+               <children>
+                  <Button id="DosCarte" fx:id="c20" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="20" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="20.0" left="20.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <children>
+                  <Button id="DosCarte" fx:id="c8" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="8" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="20.0" left="10.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <children>
+                  <Button id="DosCarte" fx:id="c0" layoutX="14.0" layoutY="18.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="0" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="20.0" left="10.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.rowIndex="3">
+               <children>
+                  <BorderPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #05774e; -fx-border-style: solid;">
+                     <center>
+                        <ProgressBar fx:id="pbJoueur2" prefWidth="200.0" progress="0.0" BorderPane.alignment="CENTER" />
+                     </center>
+                     <StackPane.margin>
+                        <Insets bottom="30.0" left="20.0" right="20.0" top="20.0" />
+                     </StackPane.margin>
+                     <bottom>
+                        <HBox>
+                           <children>
+                              <JFXToggleButton fx:id="tbJoueur2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="60.0" prefWidth="189.0" text="tour en cours" toggleColor="#29e43c" toggleLineColor="#6cf87f" unToggleColor="RED" unToggleLineColor="#eea2a2" BorderPane.alignment="CENTER" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                     </bottom>
+                     <top>
+                        <JFXButton fx:id="buttonJ2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#switchPlayer2Humanity" prefHeight="0.0" prefWidth="306.0" style="-fx-border-style: solid;" text="Joueur 2 " BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="Bauhaus 93" size="26.0" />
+                           </font>
+                        </JFXButton>
+                     </top>
+                  </BorderPane>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <children>
+                  <Button id="DosCarte" fx:id="c7" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="7" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="20.0" left="10.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="3">
+               <children>
+                  <Button id="DosCarte" fx:id="c19" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="19" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="20.0" left="10.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="3">
+               <children>
+                  <Button id="DosCarte" fx:id="c24" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clickOnCard" prefHeight="179.0" prefWidth="152.0" stylesheets="@../css/MemoryContent.css" text="24" textFill="TRANSPARENT">
+                     <StackPane.margin>
+                        <Insets bottom="20.0" left="10.0" right="20.0" />
+                     </StackPane.margin></Button>
+               </children>
+            </StackPane>
+         </children>
+      </GridPane>
+   </children>
+</VBox>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane id="fond"   style="-fx-background-color: #ffac05; -fx-border-style: none none none solid;" stylesheets="@../css/SideMenu.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.subscreen.GameDataMenuController">
+   <children>
+      <JFXButton fx:id="buttonRejouer" buttonType="RAISED" defaultButton="true" layoutX="14.0" layoutY="722.0" onAction="#rejouer" prefHeight="64.0" prefWidth="140.0" ripplerFill="#ff9602" style="-fx-border-style: solid solid solid solid; -fx-border-radius: 30%;" text="Rejouer" textFill="#f28706" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+         <font>
+            <Font name="Bauhaus 93" size="15.0" />
+         </font>
+      </JFXButton>
+      <VBox layoutX="14.0" layoutY="14.0" prefHeight="701.0" prefWidth="138.0" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <Label alignment="CENTER" maxWidth="1.7976931348623157E308" text="Resultats">
+               <font>
+                  <Font name="Bauhaus 93" size="21.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="40.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="gameNameLabel" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="21.0" prefWidth="135.0" style="-fx-background-color: orange; -fx-border-style: solid;" text="Nom jeu" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="Bradley Hand ITC" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="30.0" top="60.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="noteLabel" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="94.0" prefWidth="148.0" style="-fx-border-style: solid; -fx-border-radius: 10%;" text="_" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font size="44.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Label>
+            <JFXTextField fx:id="vieTF" editable="false" labelFloat="true" layoutX="10.0" layoutY="104.0" prefHeight="46.0" prefWidth="148.0" promptText="Vie(s) restante(s)">
+               <VBox.margin>
+                  <Insets bottom="30.0" top="60.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="scoreTF" editable="false" labelFloat="true" layoutX="10.0" layoutY="316.0" prefHeight="46.0" prefWidth="148.0" promptText="Score">
+               <VBox.margin>
+                  <Insets bottom="30.0" top="30.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXTextField>
+            <Label fx:id="gameIssueLabel" alignment="CENTER" maxWidth="1.7976931348623157E308" text="-">
+               <font>
+                  <Font size="32.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

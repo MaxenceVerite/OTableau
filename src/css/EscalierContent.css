@@ -1,0 +1,34 @@
+#fond{
+	-fx-border-color:#845717; 
+	-fx-border-width:6px; 
+	-fx-border-style:solid;
+}
+
+
+#CadreMath
+{
+	-fx-background-color: #8B4513;
+
+    -fx-font-family: "Quicksand";
+    -fx-border-color: #603503;
+    -fx-border-width: 3;
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+    -fx-font-size: 26px;
+    -fx-text-fill: #D2691E;
+
+}
+
+#LabelNumeroEscalier
+{
+	-fx-font-size:50px;
+	-fx-text-fill: #fceee5;
+	-fx-font-weight: bold;
+}
+
+#FondEcranEscalier
+{
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}

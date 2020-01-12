@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox id="fond" fx:id="rootVbox" prefHeight="800.0" prefWidth="1280.0" stylesheets="@../css/ConfusonContent.css" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.game.ConfusonContentController">
+   <children>
+      <HBox layoutX="10.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" VBox.vgrow="ALWAYS">
+         <children>
+            <Button id="buzz" fx:id="bye" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#jouerTouche" style="-fx-background-color: #000000;" text="YE" textFill="WHITE" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Bodoni MT Black" size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets top="550.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="buzz" fx:id="bk" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#jouerTouche" style="-fx-background-color: #d31010;" text="K" textFill="WHITE" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Bodoni MT Black" size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="2.0" top="500.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="buzz" fx:id="bz" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#jouerTouche" style="-fx-background-color: #d25a0f;" text="Z" textFill="WHITE" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Bodoni MT Black" size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="5.0" top="450.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="buzz" fx:id="bv" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#jouerTouche" style="-fx-background-color: #f9d904;" text="V" textFill="WHITE" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Bodoni MT Black" size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="25.0" top="400.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="buzz" fx:id="bt" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#jouerTouche" style="-fx-background-color: #97f903;" text="T" textFill="WHITE" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Bodoni MT Black" size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="50.0" top="350.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="buzz" fx:id="bd" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#jouerTouche" style="-fx-background-color: #0ad830;" text="D" textFill="WHITE" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Bodoni MT Black" size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="75.0" top="300.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="buzz" fx:id="bb" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#jouerTouche" style="-fx-background-color: #09d8ab;" text="B" textFill="WHITE" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Bodoni MT Black" size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="100.0" top="250.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="buzz" fx:id="bp" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#jouerTouche" style="-fx-background-color: #0892d8;" text="P" textFill="WHITE" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Bodoni MT Black" size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="125.0" top="200.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="buzz" fx:id="bss" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#jouerTouche" style="-fx-background-color: #1208d8;" text="SS" textFill="WHITE" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Bodoni MT Black" size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="150.0" top="150.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="buzz" fx:id="bch" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#jouerTouche" style="-fx-background-color: #6e10cc;" text="CH" textFill="WHITE" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="175.0" top="100.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="buzz" fx:id="bg" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#jouerTouche" style="-fx-background-color: #ff02f6;" text="G" textFill="WHITE" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Bodoni MT Black" size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="200.0" top="50.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="buzz" fx:id="bl" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#jouerTouche" style="-fx-background-color: #ffffff;" text="L" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="Bodoni MT Black" size="30.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="225.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets top="2.0" />
+         </VBox.margin>
+      </HBox>
+      <Button fx:id="buttonModele" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#jouerModele" style="-fx-background-color: white; -fx-border-style: solid;" text="JOUER LE MODELE" textFill="#050000" VBox.vgrow="ALWAYS">
+         <VBox.margin>
+            <Insets bottom="20.0" left="400.0" right="400.0" top="20.0" />
+         </VBox.margin>
+         <font>
+            <Font name="Bauhaus 93" size="26.0" />
+         </font>
+      </Button>
+   </children>
+</VBox>

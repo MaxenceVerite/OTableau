@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="rootVbox" style="-fx-border-color:#845717; -fx-border-width:6px; -fx-border-style:solid;" id="FondEcranPendu"  stylesheets="@../css/PenduContent.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.game.PenduContentController" VBox.vgrow="ALWAYS">
+   <children>
+      <StackPane prefHeight="116.0" prefWidth="1280.0">
+         <VBox.margin>
+            <Insets bottom="20.0" />
+         </VBox.margin>
+         <children>
+            <Label fx:id="labelMot" alignment="CENTER" layoutX="10.0" layoutY="50.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="_  _  _  _  _  _  _">
+               <font>
+                  <Font name="Bauhaus 93" size="56.0" />
+               </font>
+            </Label>
+         </children></StackPane>
+      <HBox alignment="CENTER" prefHeight="394.0" prefWidth="1280.0">
+         <children>
+            <StackPane stylesheets="@../css/PenduContent.css">
+               <children>
+                  <GridPane prefHeight="446.0" prefWidth="1100.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="132.0" minHeight="10.0" prefHeight="132.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="132.0" minHeight="10.0" prefHeight="132.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="127.0" minHeight="10.0" prefHeight="125.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="127.0" minHeight="10.0" prefHeight="125.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button id="touches" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" text="B" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                        <Button id="touches" layoutX="210.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" text="E" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Button id="touches" layoutX="210.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" text="H" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <Button id="touches" layoutX="210.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" text="X" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+                        <Button id="touches" layoutX="210.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" text="C" GridPane.rowIndex="2" />
+                        <Button id="touches" layoutX="210.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" text="Q" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+                        <Button id="touches" layoutX="810.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" text="T" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+                        <Button id="touches" layoutX="210.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" text="Y" GridPane.columnIndex="10" GridPane.rowIndex="2" />
+                        <Button id="touches" layoutX="210.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" text="R" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+                        <Button id="touches" layoutX="210.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" text="O" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+                        <Button id="touches" layoutX="210.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" prefHeight="216.0" prefWidth="138.0" text="W" GridPane.columnIndex="10" />
+                        <Button id="touches" layoutX="210.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" text="A" />
+                        <Button id="touches" layoutX="210.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" text="K" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                        <Button id="touches" layoutX="210.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" text="I" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                        <Button id="touches" layoutX="210.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" text="F" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Button id="touches" layoutX="210.0" layoutY="10.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" text="U" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+                        <Button id="touches" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" prefHeight="109.0" prefWidth="77.0" text="G" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Button id="touches" layoutX="10.0" layoutY="206.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" text="D" GridPane.rowIndex="3" />
+                        <Button id="touches" layoutX="110.0" layoutY="297.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" prefHeight="109.0" prefWidth="77.0" text="N" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                        <Button id="touches" layoutX="110.0" layoutY="297.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" prefHeight="109.0" prefWidth="77.0" text="M" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                        <Button id="touches" layoutX="110.0" layoutY="297.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" prefHeight="109.0" prefWidth="77.0" text="L" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                        <Button id="touches" layoutX="110.0" layoutY="297.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" prefHeight="109.0" prefWidth="77.0" text="J" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                        <Button id="touches" layoutX="610.0" layoutY="297.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" prefHeight="109.0" prefWidth="77.0" text="P" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+                        <Button id="touches" layoutX="610.0" layoutY="297.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" prefHeight="109.0" prefWidth="77.0" text="S" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+                        <Button id="touches" layoutX="710.0" layoutY="297.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" prefHeight="109.0" prefWidth="77.0" text="V" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+                        <Button id="touches" layoutX="810.0" layoutY="297.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#getLettre" prefHeight="109.0" prefWidth="77.0" text="Z" GridPane.columnIndex="10" GridPane.rowIndex="3" />
+                        <Button id="submitButton" fx:id="buttonValider" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#submit" prefHeight="154.0" prefWidth="203.0" stylesheets="@../css/PenduContent.css" GridPane.columnIndex="4" GridPane.columnSpan="3" GridPane.rowSpan="3">
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                        </Button>
+                     </children>
+                     <HBox.margin>
+                        <Insets bottom="15.0" />
+                     </HBox.margin>
+                     <StackPane.margin>
+                        <Insets bottom="20.0" />
+                     </StackPane.margin>
+                  </GridPane>
+               </children>
+            </StackPane>
+         </children>
+         <VBox.margin>
+            <Insets top="40.0" />
+         </VBox.margin>
+      </HBox>
+      <StackPane prefHeight="224.0" prefWidth="1280.0">
+         <children>
+            <StackPane prefHeight="150.0" prefWidth="200.0">
+               <children>
+                  <HBox fx:id="boxChoixOption" alignment="CENTER" prefHeight="184.0" prefWidth="860.0" StackPane.alignment="CENTER">
+                     <children>
+                        <VBox id="boxOption" prefHeight="184.0" prefWidth="502.0">
+                           <children>
+                              <Label alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="39.0" prefWidth="535.0" text="Joueur proposeur" VBox.vgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Bauhaus 93" size="27.0" />
+                                 </font>
+                              </Label>
+                              <FlowPane prefHeight="51.0" prefWidth="531.0">
+                                 <children>
+                                    <PasswordField id="proposition" fx:id="labelChoixMot" prefHeight="44.0" prefWidth="291.0" promptText="propose un mot pour ton ami" styleClass="proposition">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                       <FlowPane.margin>
+                                          <Insets left="105.0" />
+                                       </FlowPane.margin>
+                                    </PasswordField>
+                                    <Button id="ok" mnemonicParsing="false" onAction="#validerChoixMot" text="ok">
+                                       <FlowPane.margin>
+                                          <Insets left="20.0" />
+                                       </FlowPane.margin>
+                                    </Button>
+                                 </children>
+                              </FlowPane>
+                              <StackPane>
+                                 <children>
+                                    <Button id="ok" mnemonicParsing="false" onAction="#loadMot" prefHeight="31.0" prefWidth="201.0" text="Jouer seul" />
+                                 </children>
+                              </StackPane>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="210.0" />
+                           </HBox.margin>
+                        </VBox>
+                     </children>
+                     <StackPane.margin>
+                        <Insets bottom="20.0" right="200.0" top="20.0" />
+                     </StackPane.margin>
+                  </HBox>
+               </children>
+            </StackPane>
+         </children></StackPane>
+   </children>
+</VBox>

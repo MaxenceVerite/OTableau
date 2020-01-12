@@ -1,0 +1,12 @@
+#paneGameOver {
+	-fx-background-image: url("/images/Fonds/GAMEOVER.png");
+	 -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+
+#gameBox {
+	-fx-border-color:#845717;
+	-fx-border-width:6px;
+	-fx-border-style:solid;
+}

@@ -1,0 +1,161 @@
+
+#selectButtonFrancais{
+	
+	-fx-border-style: solid none none none;
+	-fx-border-color: #263c6f;
+	-fx-border-width: 3;
+	
+}
+
+
+
+#BanniereMaths{
+	
+	-fx-background-image: url("../images/Fonds/baniere-maths.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+    }
+#BanniereMaths:hover{	-fx-background-image:url("../images/Fonds/baniere-mathsanim.png") ;
+	}
+#BanniereFrancais
+{
+	-fx-background-image:url("../images/Fonds/baniere-francais.png") ;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+#BanniereFrancais:hover{	-fx-background-image:url("../images/Fonds/baniere-francaisanim.png") ;
+	}
+
+#BanniereLangues
+{
+	-fx-background-image:url("../images/Fonds/baniere-langues.png") ;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+#BanniereLangues:hover{	-fx-background-image:url("../images/Fonds/baniere-languesanim.png") ;
+	}
+#BanniereMulti
+{
+	-fx-background-image:url("../images/Fonds/baniere-multi.png") ;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+#BanniereMulti:hover{	-fx-background-image:url("../images/Fonds/baniere-multianim.png") ;
+	}	
+	
+
+
+#selectButtonMaths:hover{
+	-fx-border-style: solid;
+	-fx-border-color: white;
+	-fx-border-width: 5;
+}
+
+
+#selectButtonLangues{
+	
+	-fx-border-style: solid none none none;
+	-fx-border-color: #263c6f;
+	-fx-border-width: 3;
+	
+}
+
+#selectButtonMulti{
+	
+	-fx-border-style: solid none none none;
+	-fx-border-color: #263c6f;
+	-fx-border-width: 3;
+	
+}
+
+#ChoixCalcBulle
+{
+	-fx-background-image:url("../images/choix/calcbullechoix.png") ;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+#ChoixCalcBulle:hover{	-fx-background-image:url("../images/choix/calcbullechoix2.png") ;
+	}
+	
+#ChoixConfuson
+{
+	-fx-background-image:url("../images/choix/confusonchoix.png") ;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+#ChoixConfuson:hover{	-fx-background-image:url("../images/choix/confusonchoix2.png") ;
+	}
+	
+#ChoixEscalier
+{
+	-fx-background-image:url("../images/choix/escalierchoix.png") ;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+#ChoixEscalier:hover{	-fx-background-image:url("../images/choix/escalierchoix2.png") ;
+	}
+	
+#ChoixMemory
+{
+	-fx-background-image:url("../images/choix/memorychoix.png") ;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+#ChoixMemory:hover{	-fx-background-image:url("../images/choix/memorychoix2.png") ;
+	}
+
+#ChoixPendu
+{
+	-fx-background-image:url("../images/choix/penduchoix.png") ;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+#ChoixPendu:hover{	-fx-background-image:url("../images/choix/penduchoix2.png") ;
+	}
+	
+#Dimension
+{
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+	
+#ChoixPixel
+{
+	-fx-background-image:url("../images/choix/pixelchoix.png") ;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+#ChoixPixel:hover{	-fx-background-image:url("../images/choix/pixelchoix2.png") ;
+	}
+	
+#ChoixVocabulary
+{
+	-fx-background-image:url("../images/choix/vocabularychoix.png") ;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+#ChoixVocabulary:hover{	-fx-background-image:url("../images/choix/vocabularychoix2.png") ;
+	}
+	
+	
+#confusonTravaux{
+	-fx-background-image: url("../images/Fonds/confuson_a_venir.png");
+	 -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+    -fx-border-style:solid;
+    -fx-border-width:5px;
+    -fx-border-color:#6d470a;
+}

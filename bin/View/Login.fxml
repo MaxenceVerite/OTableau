@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import org.controlsfx.control.textfield.*?>
+<?import org.controlsfx.control.*?>
+<?import de.jensd.fx.glyphs.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="629.0" prefWidth="753.0" style="-fx-background-color: #cbe6e1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.screen.LoginController">
+   <children>
+      <JFXTextField fx:id="TFLogin" alignment="CENTER" layoutX="292.0" layoutY="363.0" promptText="    Entre ton nom" style="-fx-background-color: #ffbb00;" unFocusColor="#ffac05" AnchorPane.bottomAnchor="235.0" AnchorPane.leftAnchor="292.0" AnchorPane.rightAnchor="292.0" AnchorPane.topAnchor="363.0">
+         <font>
+            <Font name="Bauhaus 93" size="17.0" />
+         </font>
+      </JFXTextField>
+      <ImageView fitHeight="49.0" fitWidth="47.0" layoutX="163.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="227.0" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="543.0" AnchorPane.topAnchor="355.0">
+         <image>
+            <Image url="@../images/male-user.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="47.0" layoutX="219.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="227.0" AnchorPane.leftAnchor="219.0" AnchorPane.rightAnchor="487.0" AnchorPane.topAnchor="355.0">
+         <image>
+            <Image url="@../images/female-user.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="buttonQuit" buttonType="RAISED" layoutX="570.0" layoutY="23.0" onAction="#quitter" prefHeight="53.0" prefWidth="169.0" text="QUITTER" textFill="#263c6f" AnchorPane.bottomAnchor="553.0" AnchorPane.leftAnchor="570.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="23.0">
+         <font>
+            <Font name="Bauhaus 93" size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXToggleButton fx:id="buttonStart" layoutX="258.0" layoutY="492.0" onAction="#toMainScene" text="Commencer à jouer" toggleColor="#263c6f" unToggleColor="#ffaa00" AnchorPane.bottomAnchor="75.0" AnchorPane.leftAnchor="258.0" AnchorPane.rightAnchor="258.0" AnchorPane.topAnchor="492.0">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font>
+      </JFXToggleButton>
+      <ImageView fitHeight="213.0" fitWidth="239.0" layoutX="257.0" layoutY="50.0" pickOnBounds="true" AnchorPane.bottomAnchor="366.0" AnchorPane.leftAnchor="257.0" AnchorPane.rightAnchor="257.0" AnchorPane.topAnchor="50.0">
+         <image>
+            <Image url="@../images/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+
+#FondEcranBulle
+{
+	-fx-background-image:url("../images/Bulle/FondEcranBulle.png") ;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+
+#ScoreBulleFond
+{
+	-fx-background-color:#f2e643;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+
+#BulleDesign
+{
+	-fx-background-image:url("../images/Bulle/Bulle.png") ;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;	
+    -fx-opacity:70%;
+    
+}

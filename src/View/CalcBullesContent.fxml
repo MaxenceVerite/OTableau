@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox id="FondEcranBulle" fx:id="rootVbox" alignment="CENTER"   style="-fx-border-color:#845717; -fx-border-width:6px; -fx-border-style:solid;" stylesheets="@../css/BulleContent.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.game.CalcBullesContentController" VBox.vgrow="ALWAYS">
+   <children>
+      <GridPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="719.0" prefWidth="1275.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button id="BulleDesign" fx:id="bulle6" layoutX="805.0" layoutY="233.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClicked" style="-fx-background-radius: 50%;" stylesheets="@../css/BulleContent.css" text="test" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Stencil" size="24.0" />
+               </font>
+            </Button>
+            <Button id="BulleDesign" fx:id="bulle2" layoutX="559.0" layoutY="510.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClicked" style="-fx-background-radius: 50%;" stylesheets="@../css/BulleContent.css" text="test" GridPane.columnIndex="3" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font name="Stencil" size="29.0" />
+               </font>
+            </Button>
+            <Button id="BulleDesign" fx:id="bulle7" layoutX="479.0" layoutY="26.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClicked" style="-fx-background-radius: 50%;" stylesheets="@../css/BulleContent.css" text="test" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font name="Stencil" size="24.0" />
+               </font>
+            </Button>
+            <Button id="BulleDesign" fx:id="bulle5" layoutX="123.0" layoutY="77.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClicked" style="-fx-background-radius: 50%;" stylesheets="@../css/BulleContent.css" text="test" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Stencil" size="25.0" />
+               </font>
+            </Button>
+            <Button id="BulleDesign" fx:id="bulle1" layoutX="69.0" layoutY="384.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClicked" style="-fx-background-radius: 50%;" stylesheets="@../css/BulleContent.css" text="test" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font name="Stencil" size="24.0" />
+               </font>
+            </Button>
+            <Button id="BulleDesign" fx:id="bulle3" layoutX="460.0" layoutY="301.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClicked" style="-fx-background-radius: 50%;" stylesheets="@../css/BulleContent.css" text="test" GridPane.columnIndex="3" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font name="Stencil" size="24.0" />
+               </font>
+            </Button>
+            <Button id="BulleDesign" fx:id="bulle4" layoutX="982.0" layoutY="458.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClicked" style="-fx-background-radius: 50%;" stylesheets="@../css/BulleContent.css" text="test" GridPane.columnIndex="4" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font name="Stencil" size="24.0" />
+               </font>
+            </Button>
+            <Button id="BulleDesign" fx:id="bulle8" layoutX="1050.0" layoutY="52.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#buttonClicked" style="-fx-background-radius: 50%;" stylesheets="@../css/BulleContent.css" text="test" GridPane.columnIndex="5" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font name="Stencil" size="25.0" />
+               </font>
+            </Button>
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" valignment="CENTER" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+         </rowConstraints>
+      </GridPane>
+      <AnchorPane id="ScoreBulleFond" prefHeight="75.0" prefWidth="640.0" style="-fx-border-style: solid none none none;" stylesheets="@../css/BulleContent.css" VBox.vgrow="NEVER">
+         <children>
+            <HBox layoutX="875.0" layoutY="16.0" AnchorPane.rightAnchor="10.0">
+               <children>
+                  <Label layoutX="256.0" layoutY="25.0" text="Operation" AnchorPane.bottomAnchor="26.0" AnchorPane.rightAnchor="293.0">
+                     <font>
+                        <Font name="Bauhaus 93" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="operationTF" alignment="CENTER" editable="false" layoutX="1009.0" layoutY="16.0" prefHeight="31.0" prefWidth="249.0" text="test">
+                     <font>
+                        <Font name="Stencil" size="23.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="15.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

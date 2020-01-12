@@ -1,0 +1,30 @@
+#fond {
+	-fx-background-image: url('../images/Fonds/fondSideMenu.png');
+	-fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+
+.jfx-slider .colored-track{
+	-fx-background-color:#b1ede8;
+}
+
+.jfx-slider{
+	-jfx-default-thumb: #263c6f;
+}
+
+.jfx-slider:min .thumb,
+.jfx-slider:min:focused .thumb{
+	
+	-fx-background-color: -jfx-default-thumb;
+}
+
+.jfx-slider .thumb{
+	-fx-pref-height: 28;
+    -fx-pref-width: 28;
+}
+
+.jfx-slider:min .animated-thumb {
+    -fx-background-color: -jfx-default-thumb;
+  
+}

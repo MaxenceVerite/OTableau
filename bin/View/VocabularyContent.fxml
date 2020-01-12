@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import org.controlsfx.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="rootVbox" id="fond" stylesheets="@../css/VocabularyContent.css"  VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.game.VocabularyContentController">
+   <children>
+      <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="723.0" prefWidth="1280.0" VBox.vgrow="ALWAYS">
+         <children>
+            <BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="800.0" prefWidth="1138.0" HBox.hgrow="ALWAYS">
+               <top>
+                  <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="195.0" prefWidth="1138.0" spacing="30.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <VBox>
+                           <children>
+                              <Button id="cartes" fx:id="c0" layoutX="30.0" layoutY="20.0" mnemonicParsing="false" onAction="#clickOnCarte" prefHeight="160.0" prefWidth="144.0" text="carte0" textFill="TRANSPARENT">
+                                 <font>
+                                    <Font size="10.0" />
+                                 </font></Button>
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Button id="cartes" fx:id="c1" layoutX="30.0" layoutY="20.0" mnemonicParsing="false" onAction="#clickOnCarte" prefHeight="160.0" prefWidth="144.0" text="carte1" textFill="#ffffff00" />
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Button id="cartes" fx:id="c2" layoutX="30.0" layoutY="20.0" mnemonicParsing="false" onAction="#clickOnCarte" prefHeight="160.0" prefWidth="144.0" textFill="#03000000">
+                                 <font>
+                                    <Font size="26.0" />
+                                 </font></Button>
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Button id="cartes" fx:id="c3" layoutX="30.0" layoutY="20.0" mnemonicParsing="false" onAction="#clickOnCarte" prefHeight="160.0" prefWidth="144.0" text="carte3" textFill="#ffffff00">
+                                 <font>
+                                    <Font size="25.0" />
+                                 </font></Button>
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </HBox>
+               </top>
+               <left>
+                  <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="410.0" prefWidth="329.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="195.0" prefWidth="277.0" spacing="30.0">
+                           <children>
+                              <VBox>
+                                 <children>
+                                    <Button id="cartes" fx:id="c14" mnemonicParsing="false" onAction="#clickOnCarte" prefHeight="160.0" prefWidth="144.0" text="carte14" textFill="TRANSPARENT">
+                                       <font>
+                                          <Font size="1.0" />
+                                       </font></Button>
+                                 </children>
+                              </VBox>
+                              <VBox>
+                                 <children>
+                                    <Button id="cartes" fx:id="c8" layoutX="30.0" layoutY="20.0" mnemonicParsing="false" onAction="#clickOnCarte" prefHeight="160.0" prefWidth="144.0" text="carte8" textFill="#ffffff00" />
+                                 </children>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="20.0" right="20.0" top="20.0" />
+                           </padding>
+                        </HBox>
+                        <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="196.0" prefWidth="247.0" spacing="30.0">
+                           <children>
+                              <VBox>
+                                 <children>
+                                    <Button id="cartes" fx:id="c15" mnemonicParsing="false" onAction="#clickOnCarte" prefHeight="160.0" prefWidth="144.0" text="carte15" textFill="TRANSPARENT">
+                                       <font>
+                                          <Font size="1.0" />
+                                       </font></Button>
+                                 </children>
+                              </VBox>
+                              <VBox>
+                                 <children>
+                                    <Button id="cartes" fx:id="c9" layoutX="30.0" layoutY="20.0" mnemonicParsing="false" onAction="#clickOnCarte" prefHeight="160.0" prefWidth="144.0" text="carte9" textFill="TRANSPARENT">
+                                       <font>
+                                          <Font size="1.0" />
+                                       </font></Button>
+                                 </children>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="20.0" right="20.0" top="20.0" />
+                           </padding>
+                        </HBox>
+                     </children></VBox>
+               </left>
+               <bottom>
+                  <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="195.0" prefWidth="1138.0" spacing="30.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <VBox>
+                           <children>
+                              <Button id="cartes" fx:id="c4" layoutX="30.0" layoutY="20.0" mnemonicParsing="false" onAction="#clickOnCarte" prefHeight="160.0" prefWidth="144.0" text="carte4" textFill="TRANSPARENT">
+                                 <font>
+                                    <Font size="1.0" />
+                                 </font></Button>
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Button id="cartes" fx:id="c5" layoutX="30.0" layoutY="20.0" mnemonicParsing="false" onAction="#clickOnCarte" prefHeight="160.0" prefWidth="144.0" text="carte5" textFill="TRANSPARENT">
+                                 <font>
+                                    <Font size="1.0" />
+                                 </font></Button>
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Button id="cartes" fx:id="c6" layoutX="30.0" layoutY="20.0" mnemonicParsing="false" onAction="#clickOnCarte" prefHeight="160.0" prefWidth="144.0" text="carte6" textFill="#ffffff00" />
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Button id="cartes" fx:id="c7" layoutX="30.0" layoutY="20.0" mnemonicParsing="false" onAction="#clickOnCarte" prefHeight="160.0" prefWidth="144.0" text="carte7" textFill="TRANSPARENT" />
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </HBox>
+               </bottom>
+               <right>
+                  <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="410.0" prefWidth="339.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="195.0" prefWidth="269.0" spacing="30.0">
+                           <children>
+                              <VBox>
+                                 <children>
+                                    <Button id="cartes" fx:id="c10" mnemonicParsing="false" onAction="#clickOnCarte" prefHeight="160.0" prefWidth="144.0" text="carte10" textFill="TRANSPARENT">
+                                       <font>
+                                          <Font size="1.0" />
+                                       </font></Button>
+                                 </children>
+                              </VBox>
+                              <VBox>
+                                 <children>
+                                    <Button id="cartes" fx:id="c12" layoutX="30.0" layoutY="20.0" mnemonicParsing="false" onAction="#clickOnCarte" prefHeight="160.0" prefWidth="144.0" text="carte12" textFill="TRANSPARENT">
+                                       <font>
+                                          <Font size="1.0" />
+                                       </font></Button>
+                                 </children>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="20.0" right="20.0" top="20.0" />
+                           </padding>
+                        </HBox>
+                        <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="196.0" prefWidth="247.0" spacing="30.0">
+                           <children>
+                              <VBox>
+                                 <children>
+                                    <Button id="cartes" fx:id="c11" mnemonicParsing="false" onAction="#clickOnCarte" prefHeight="160.0" prefWidth="144.0" text="carte11" textFill="TRANSPARENT">
+                                       <font>
+                                          <Font size="1.0" />
+                                       </font></Button>
+                                 </children>
+                              </VBox>
+                              <VBox>
+                                 <children>
+                                    <Button id="cartes" fx:id="c13" layoutX="30.0" layoutY="20.0" mnemonicParsing="false" onAction="#clickOnCarte" prefHeight="160.0" prefWidth="144.0" text="carte13" textFill="TRANSPARENT">
+                                       <font>
+                                          <Font size="1.0" />
+                                       </font></Button>
+                                 </children>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="20.0" right="20.0" top="20.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </right>
+               <center>
+                  <StackPane id="paneBuzzer" prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Button id="buzzer" mnemonicParsing="false" onAction="#playSound" prefHeight="197.0" prefWidth="201.0" style="-fx-border-radius: 20 20 20 20;" stylesheets="@../css/VocabularyContent.css" text="SOUND">
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                           <font>
+                              <Font name="Bauhaus 93" size="29.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="20.0" />
+                     </padding></StackPane>
+               </center>
+            </BorderPane>
+            <VBox prefHeight="800.0" prefWidth="131.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Word Bank" textAlignment="CENTER" textFill="#ff7300" VBox.vgrow="ALWAYS">
+                     <font>
+                        <Font name="Bauhaus 93" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="e0" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                  <Label fx:id="e1" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                  <Label fx:id="e2" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                  <Label fx:id="e3" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                  <Label fx:id="e4" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                  <Label fx:id="e5" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                  <Label fx:id="e6" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                  <Label fx:id="e7" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                  <Label fx:id="e8" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                  <Label fx:id="e9" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                  <Label fx:id="e10" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                  <Label fx:id="e11" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                  <Label fx:id="e12" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" textFill="#f5f5f5" VBox.vgrow="ALWAYS" />
+                  <Label fx:id="e13" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                  <Label fx:id="e14" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" textFill="WHITE" VBox.vgrow="ALWAYS" />
+                  <Label fx:id="e15" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Label" textFill="WHITE" VBox.vgrow="ALWAYS" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>

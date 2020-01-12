@@ -1,0 +1,32 @@
+#buzzer {
+	-fx-background-radius: 50%;
+	-fx-background-color: #c11d1d;
+}
+
+#fond{
+	-fx-background-image: url("../images/vocabulary/fondVocabulary.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+    -fx-border-color:#845717; 
+    -fx-border-width:6px;
+    -fx-border-style:solid;
+    
+}
+
+#cartes{
+	-fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+     -fx-border-style: solid;
+}
+
+#paneBuzzer{
+	-fx-background-image: url("../images/vocabulary/flag.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+    -fx-border-style: solid;
+    -fx-border-color:#7a3b00;
+    -fx-border-width:5px;
+}

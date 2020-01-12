@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane stylesheets="@../css/GameScreen.css" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.screen.GameScreenController">
+   <left>
+     <fx:include fx:id="sideMenu" source="SideMenu.fxml" />
+   </left>
+   <right>
+      <fx:include fx:id="gameDataMenu" source="GameDataMenu.fxml" />
+   </right>
+   <center>
+      <StackPane style="-fx-background-color: #263c6f;">
+         <children>
+            <VBox id="paneGameOver" />
+            <VBox id="gameBox" fx:id="gameContentBox" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308"  BorderPane.alignment="CENTER" />
+         </children>
+      </StackPane>
+   </center>
+</BorderPane>

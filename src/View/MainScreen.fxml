@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.screen.MainScreenController">
+   <left>
+     
+	 <fx:include fx:id="sideMenu" source="SideMenu.fxml" />
+        
+   </left>
+   <center>
+      <VBox prefHeight="800.0" prefWidth="1106.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton id="BanniereFrancais" fx:id="buttonFrancais" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#linkFrancais" stylesheets="@../css/MainScreen.css" text="." textFill="#fafafa00" VBox.vgrow="ALWAYS" />
+            <JFXButton id="BanniereMaths" fx:id="buttonMaths" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#linkMaths" stylesheets="@../css/MainScreen.css" text="." textFill="TRANSPARENT" VBox.vgrow="ALWAYS" />
+            <JFXButton id="BanniereLangues" fx:id="buttonLangues" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#linkLangues" stylesheets="@../css/MainScreen.css" text="." textFill="TRANSPARENT" VBox.vgrow="ALWAYS" />
+            <JFXButton id="BanniereMulti" fx:id="buttonMulti" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#linkMulti" stylesheets="@../css/MainScreen.css" text="." textFill="TRANSPARENT" VBox.vgrow="ALWAYS" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

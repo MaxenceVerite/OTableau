@@ -1,0 +1,46 @@
+#submitButton {
+	-fx-border-color: #603503;
+    -fx-border-width: 6;
+    -fx-background-color: white;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+
+#touches{
+	-fx-background-color: #efb14c;
+    -fx-font-weight: bold;
+    -fx-text-fill: #D2691E;	
+    -fx-border-color: #603503;
+    -fx-border-width: 1;
+}
+
+#ok
+
+{
+	-fx-font-weight: bold;
+	-fx-background-color: #8cdb62;
+}
+
+
+.proposition{
+	-fx-background-color: #4f2b00;
+	-fx-border-color: #5e8e44;
+    -fx-border-width: 2;
+}
+
+#FondEcranPendu
+{
+	-fx-background-image:url("../images/Pendu/FondEcranPendu.png") ;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+}
+
+
+#boxOption{
+	-fx-border-color: #603503;
+    -fx-border-width: 6;
+    -fx-background-color: #efb14c;
+    -fx-border-radius:5;
+}
